@@ -1,9 +1,11 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 const Contact = () => {
   return (
     <div className="bg-gray-900 min-h-screen px-4 sm:px-8 md:px-16 lg:px-24 py-16 flex flex-col items-center">
+
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-12 text-white text-center">
         Contact Me
       </h1>
@@ -52,6 +54,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      
     </div>
   );
 };
