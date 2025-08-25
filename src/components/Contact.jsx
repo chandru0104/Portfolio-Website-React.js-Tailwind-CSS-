@@ -29,7 +29,7 @@ const Contact = () => {
 
         <div className="flex justify-center gap-6 mt-10 text-2xl sm:text-3xl md:text-4xl">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/chandru0104"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-400 transform hover:scale-110 transition-transform"
@@ -37,20 +37,12 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/chandru-s-207082282/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-400 transform hover:scale-110 transition-transform"
           >
             <FaLinkedin />
-          </a>
-          <a
-            href="https://instagram.com/yourusername"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-blue-400 transform hover:scale-110 transition-transform"
-          >
-            <FaInstagram />
           </a>
         </div>
       </div>

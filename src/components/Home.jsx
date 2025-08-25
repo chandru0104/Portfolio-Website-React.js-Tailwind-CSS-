@@ -14,9 +14,9 @@ const Home = () => {
           <h1 className="font-extrabold text-4xl md:text-6xl leading-snug">
             Hi...👋 <br />I am <span className="text-blue-500">Chandru</span>{" "}
             <br />
-            <span className="text-gray-300">Full Stack Developer</span>
+            <span className="text-gray-300">Full Stack Developer(MERN)</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-400">
+          <p className="text-lg md:text-x1 text-gray-400">
             I develop modern and scalable web applications using the MERN stack,
             blending clean UI/UX design with secure backend development.
           </p>
@@ -55,12 +55,7 @@ const Home = () => {
         <div className="flex-1 space-y-6 text-center md:text-left">
           <h2 className="font-extrabold text-4xl md:text-6xl">About Me</h2>
           <p className="text-lg md:text-2xl text-gray-400">
-            I am a passionate MERN Stack Developer with a strong interest in
-            building modern, responsive, and scalable web applications. My
-            expertise lies in working with MongoDB, Express.js, React.js, and
-            Node.js to deliver full-stack solutions that combine clean and
-            intuitive UI/UX with secure, efficient, and high-performance backend
-            systems.
+          Certified Full Stack Developer with hands-on experience building e-commerce and portfolio websites using the MERN stack (MongoDB, Express.js, React.js, Node.js). Skilled in creating responsive, scalable, and user-friendly web applications, with expertise in JWT authentication, RESTful APIs, and role-based access control. Familiar with UI/UX design principles and tools, and committed to delivering high-quality, maintainable code.  
           </p>
         </div>
         <div className="flex-1 flex justify-center md:justify-end">
