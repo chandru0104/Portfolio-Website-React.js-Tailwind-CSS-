@@ -1,20 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-300 py-6 mt-12 w-full bg-gray-900/40 border-t border-white/10">
+    <footer className="text-gray-300 py-6  w-full bg-gray-900/40 border-t border-white/10">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+        {/* Copyright */}
         <p className="text-sm text-center md:text-left">
           © {new Date().getFullYear()} Chandru. All Rights Reserved.
         </p>
-        <Link
-          to="https://github.com/chandru0104"
+
+        {/* External Link */}
+        <a
+          href="https://github.com/chandru0104"
           target="_blank"
+          rel="noopener noreferrer"
           className="text-blue-400 hover:underline"
         >
           Visit My GitHub
-        </Link>
+        </a>
       </div>
     </footer>
   );
